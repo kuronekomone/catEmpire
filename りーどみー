@@ -1,0 +1,17 @@
+うぃきの中身
+
+CreateServlet.java    新しい項目の作成
+
+ListServlet.java　一覧表示
+
+ReferServlet.java　項目の詳細
+
+RequestUtils.java インポート
+
+UpdateServlet.java　アップデート
+
+WikiFormater.java　フォーマット
+
+WikiPage.java　been
+
+WikiPageDAO.java　接続
