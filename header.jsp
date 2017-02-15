@@ -7,11 +7,13 @@
 	<head><title>PuchiWiki</title></head>
 	<body>
 	
-		<IMG SRC="img/logo.gif">
+		<!--<IMG SRC="img/moai.png">-->
 		
 		<A HREF="list">一覧</A>
 		|
 		<A HREF="create.jsp">新規</A>
+		|
+		<A HREF="index.jsp">トップページへ戻る</A>
 		
 		<P>${message}
 	
