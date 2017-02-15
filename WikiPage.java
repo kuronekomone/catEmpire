@@ -6,6 +6,7 @@ public class WikiPage{
 	private String name;
 	private String content;
 	private Timestamp updateTime;
+	private String path;
 	
 	public String getFormatedContent(){
 		WikiFormater formater = new WikiFormater();
@@ -28,5 +29,12 @@ public class WikiPage{
 	}
 	public void setUpdateTime(Timestamp updateTime){
 		this.updateTime = updateTime;
+	}
+	public String getPath(){
+		return path;
+	}
+	public void setPath(String path){
+		this.path = path;
+		System.out.println("wppath1="+path);
 	}
 }

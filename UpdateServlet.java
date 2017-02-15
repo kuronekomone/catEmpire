@@ -19,7 +19,7 @@ public class UpdateServlet extends HttpServlet{
 			WikiPage wikiPage = new WikiPage();
 			wikiPage.setName(name);
 			wikiPage.setContent(content);
-			if(cmd.equals("delete")){
+			if(cmd.equals("update")){
 				WikiPageDAO.getInstance().update(wikiPage);
 				RequestUtils.setMessage(req,name + "‚ğXV‚µ‚Ü‚µ‚½");
 				req.getRequestDispatcher("/refer").forward(req,res);
