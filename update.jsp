@@ -1,4 +1,5 @@
 <h1>${wikiPage.name}の編集</h1>
+<link rel="stylesheet" type="text/css" href="./neptune.css">
 
 <FORM ACTION="update">
 	<INPUT TYPE="HIDDEN" NAME="cmd" VALUE="update">
@@ -9,6 +10,6 @@
 	<INPUT TYPE="SUBMIT" VALUE="　更新　">
 	<INPUT TYPE="SUBMIT" VALUE="　削除　" ONLICK="cmd.value='delete'">
 	<INPUT TYPE="SUBMIT" VALUE="キャンセル">
-ONCLICK="location.href='refer'"
+
 
 </FORM>
